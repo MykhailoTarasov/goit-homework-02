@@ -3,22 +3,71 @@ body {
     background-color: #FFFFFF;
 }
 
-.logo {
-    color: #4D5AE5;
-}
-
 .list {
     list-style: none;
+}
+
+/* .header */
+
+.logo-begin {
+    color: #4D5AE5;
 }
 
 .contact-nav .link {
     color: #434455;
 }
 
-.contact-nav .link:hover {
+.contact-nav .link:hover,
+.contact-nav .link:focus {
     color: #404BBF;
 }
 
-.site-nav .link:hover {
+.site-nav .link:hover,
+.site-nav .link:focus {
     color: #404BBF;
+}
+
+/* .section 1 */
+
+.hero-title {
+    color: #FFFFFF;
+}
+
+.main-button {
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+}
+
+.main-button:hover,
+.main-button:focus {
+    background-color: #404BBF;
+}
+
+/* .sections */
+
+.descr {
+    color: #434455;
+}
+
+/* .footer */
+
+.logo-end {
+    color: #FFFFFF ;
+}
+
+.footer-text {
+    color: #E7E9FC;
+}
+
+/* .portfolio */
+
+.filter-btn {
+    color: #4D5AE5;
+    background-color: #E7E9FC;
+}
+
+.filter-btn:hover,
+.filter.btn:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
