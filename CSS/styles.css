@@ -1,73 +1,142 @@
 body {
-    color: #2E2F42;
-    background-color: #FFFFFF;
+  color: #2e2f42;
+  background-color: #ffffff;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 2%;
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 /* .header */
 
+.logo {
+  font-family: Raleway, cursive;
+  font-size: 18px;
+  line-height: 1.3;
+  text-decoration: none;
+  letter-spacing: 3%;
+  font-weight: 800;
+}
+
 .logo-begin {
-    color: #4D5AE5;
+  color: #4d5ae5;
 }
 
-.contact-nav .link {
-    color: #434455;
-}
-
-.contact-nav .link:hover,
-.contact-nav .link:focus {
-    color: #404BBF;
+.site-nav {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: #404BBF;
+  color: #404bbf;
+}
+
+.contact-nav {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.contact-nav .link {
+  color: #434455;
+  text-decoration: none;
+}
+
+.contact-nav .phone {
+  text-decoration: none;
+}
+
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+  color: #404bbf;
 }
 
 /* .section 1 */
 
 .hero-title {
-    color: #FFFFFF;
+  color: #ffffff;
+  font-size: 56px;
+  line-height: 1.1;
+  font-weight: 700;
 }
 
 .main-button {
-    color: #FFFFFF;
-    background-color: #4D5AE5;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
 }
 
 .main-button:hover,
 .main-button:focus {
-    background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 /* .sections */
 
+.features-list {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
 .descr {
-    color: #434455;
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.team-list {
+font-size: 20px;
+line-height: 1.2;
+font-weight: 500;
 }
 
 /* .footer */
 
 .logo-end {
-    color: #FFFFFF ;
+  color: #ffffff;
 }
 
 .footer-text {
-    color: #E7E9FC;
+  color: #e7e9fc;
+  font-size: 16;
+  line-height: 1.5;
 }
 
 /* .portfolio */
 
 .filter-btn {
-    color: #4D5AE5;
-    background-color: #E7E9FC;
+  color: #4d5ae5;
+  background-color: #e7e9fc;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
 }
 
 .filter-btn:hover,
 .filter.btn:focus {
-    color: #FFFFFF;
-    background-color: #404BBF;
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.portfolio-list {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
 }
