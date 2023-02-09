@@ -65,6 +65,7 @@ body {
 
 /* .section 1 */
 
+
 .hero {
   background-color: var(--color-primary);
 }
@@ -73,6 +74,7 @@ body {
   color: var(--white);
   font-size: 56px;
   line-height: 1.1;
+  text-align: center;
 }
 
 .main-button {
@@ -93,6 +95,12 @@ body {
 }
 
 /* .sections */
+
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .features-list {
   font-size: 20px;
